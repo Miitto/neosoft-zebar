@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "direction": "top",
-  "gradient": "top",
+  "gradient": "disabled",
   "attachSides": true,
   "taskbarIntegration": {
     "enabled": false,

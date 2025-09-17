@@ -64,7 +64,13 @@
   --bg: var(--ctp-mocha-base);
   --border: var(--ctp-mocha-overlay0);
   --shadow: var(--cpt-mocha-crust);
-  --icon: var(--ctp-mocha-maroon);
+  --icon: var(--ctp-mocha-red);
+  --memory: var(--ctp-mocha-sky);
+  --cpu: var(--ctp-mocha-blue);
+  --cpu-high-usage: var(--ctp-mocha-sapphire);
+  --battery-good: var(--ctp-mocha-green);
+  --battery-mid: var(--ctp-mocha-teal);
+  --battery-low: var(--ctp-mocha-red);
   --focused-process: var(--ctp-mocha-text);
   --process: var(--ctp-mocha-subtext0);
   --displayed: var(--ctp-mocha-text);
@@ -77,4 +83,7 @@
   --not-playing: var(--ctp-mocha-red);
   --now-playing: var(--ctp-mocha-teal);
   --weather: var(--ctp-mocha-text);
+  --volume-start: var(--ctp-mocha-mauve);
+  --volume-end: var(--ctp-mocha-flamingo);
+  --volume-inner: var(--ctp-mocha-lavender);
 }
