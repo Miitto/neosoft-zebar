@@ -92,13 +92,17 @@
     <div
       class="relative z-10 my-zby mx-zbx h-full w-full grid grid-cols-[1fr_auto_1fr] grid-rows-1 items-center"
     >
-      <Group
-        leftCurve={!config.attachSides}
-        outerClass="h-full justify-self-start"
-        innerClass="h-full px-4 {isOnPrimaryMonitor() ? 'pl-zlby' : ''}"
-      >
-        <LeftGroup />
-      </Group>
+      {#if config.enableStatsGroup}
+        <Group
+          leftCurve={!config.attachSides}
+          outerClass="h-full justify-self-start"
+          innerClass="h-full px-4 {isOnPrimaryMonitor() ? 'pl-zlby' : ''}"
+        >
+          <LeftGroup />
+        </Group>
+      {:else}
+        <div></div>
+      {/if}
       <div
         class="h-full {config.taskbarIntegration.enabled
           ? 'grid grid-cols-[1fr_auto_1fr] grid-rows-1'

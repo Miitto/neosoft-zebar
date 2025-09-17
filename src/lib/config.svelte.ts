@@ -75,6 +75,11 @@ export interface Config {
    * (This can be toggled in the UI by clicking the date/time)
    */
   showFullDateByDefault: boolean;
+
+  /**
+   * Whether to enable the stats group (CPU, Memory, Battery, Networt) on the left.
+   */
+  enableStatsGroup: boolean;
 }
 
 export type AttachmentDirection = "top" | "bottom" | "floating";

@@ -22,5 +22,6 @@
   },
   "backgroundEffect": "acrylic",
   "enableAutoTiling": true,
-  "showFullDateByDefault": false
+  "showFullDateByDefault": false,
+  "enableStatsGroup": false
 }

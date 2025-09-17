@@ -81,6 +81,10 @@
       "$ref": "#/definitions/AttachmentDirection",
       "description": "The visual direction of the widget.\n\n`top`- The top of the widget has inverted corner radius, and the bottom has normal corner radius.\n\n`bottom`- The bottom of the widget has inverted corner radius, and the top has normal corner radius.\n\n`floating`- All corners of the widget have normal corner radius."
     },
+    "enableStatsGroup": {
+      "description": "Whether to enable the stats group (CPU, Memory, Battery, Network) on the left.",
+      "type": "boolean"
+    },
     "enableAutoTiling": {
       "description": "Whether to enable built-in automatic tiling of windows.",
       "type": "boolean"
