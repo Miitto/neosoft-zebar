@@ -58,4 +58,23 @@
   --volume-inner: var(--tau-accent);
   --bg-focused: var(--tau-highlight-high) / 0.4;
   --bg-unfocused: var(--tau-overlay) / 0.5;
+
+  --text: var(--ctp-mocha-text);
+  --accent: var(--ctp-mocha-lavender);
+  --bg: var(--ctp-mocha-base);
+  --border: var(--ctp-mocha-overlay0);
+  --shadow: var(--cpt-mocha-crust);
+  --icon: var(--ctp-mocha-maroon);
+  --focused-process: var(--ctp-mocha-text);
+  --process: var(--ctp-mocha-subtext0);
+  --displayed: var(--ctp-mocha-text);
+  --ws-1: var(--ctp-mocha-lavender);
+  --ws-2: var(--ctp-mocha-mauve);
+  --ws-3: var(--ctp-mocha-sapphire);
+  --ws-4: var(--ctp-mocha-green);
+  --ws-5: var(--ctp-mocha-peach);
+  --tiling-direction: var(--ctp-mocha-rosewater);
+  --not-playing: var(--ctp-mocha-red);
+  --now-playing: var(--ctp-mocha-teal);
+  --weather: var(--ctp-mocha-text);
 }
